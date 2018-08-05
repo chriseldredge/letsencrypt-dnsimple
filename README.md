@@ -13,7 +13,7 @@ $ gem install bundler
 $ bundle install
 $ DNSIMPLE_ACCESS_TOKEN=... \
   NAMES=foo.org,www/foo.org \
-  ACME_CONTACT=mailto:you@foo.org \
+  ACME_CONTACT=you@foo.org \
   bundle exec ruby main.rb
 ```
 
